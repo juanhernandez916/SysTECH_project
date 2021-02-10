@@ -1,4 +1,6 @@
-
+*{
+  font-family: 'Roboto',sans-serif;
+}
 
 .menu-header{  /* Clase header menu*/
   margin: auto;
@@ -18,6 +20,7 @@ ol,li{ /* Quitar las viñetas de los elementos ol, li*/
   padding: 15px 20px;
   display: inline-block;
   background-color: DodgerBlue;
+  transition: color .9s ease;
 
 
 }
@@ -72,8 +75,9 @@ ol,li{ /* Quitar las viñetas de los elementos ol, li*/
   float:left;
   width: 210px;
   padding: 10px 5px;
-  border: 5px solid black;
+  outline: 5px solid black;
   margin: 10px;
+  text-align: center;
 }
 
 .display-products img{
